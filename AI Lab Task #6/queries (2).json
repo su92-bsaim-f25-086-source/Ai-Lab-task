@@ -1,0 +1,38 @@
+[
+  {
+    "query": "What happens if a payment is late?",
+    "doc": "billing",
+    "evidence": "Late payments incur a fixed fee of fifteen dollars after a grace period of three days.",
+    "split": "dev"
+  },
+  {
+    "query": "How do I reset my account password?",
+    "doc": "security",
+    "evidence": "Password resets require clicking the secure token sent to the registered email address.",
+    "split": "dev"
+  },
+  {
+    "query": "What are the support response times?",
+    "doc": "support",
+    "evidence": "Response times depend on subscription tiers, with enterprise users receiving priority assistance under two hours.",
+    "split": "dev"
+  },
+  {
+    "query": "How are refunds processed?",
+    "doc": "billing",
+    "evidence": "Late payments incur a fixed fee of fifteen dollars after a grace period of three days.",
+    "split": "test"
+  },
+  {
+    "query": "Are support agents allowed to ask for my password?",
+    "doc": "security",
+    "evidence": "Password resets require clicking the secure token sent to the registered email address.",
+    "split": "test"
+  },
+  {
+    "query": "What is tomorrow's weather forecast?",
+    "doc": null,
+    "evidence": null,
+    "split": "test"
+  }
+]
